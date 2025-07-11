@@ -1,12 +1,55 @@
-# React + Vite
+# Trading Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive cryptocurrency trading platform built with React and Vite, featuring advanced trading tools, AI assistance, P2P trading, and more.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Advanced Trading**: Spot trading, futures, options, and margin trading  
+- **AI Trading**: AI-powered trading assistance and bot marketplace  
+- **P2P Trading**: Peer-to-peer cryptocurrency trading  
+- **Copy Trading**: Follow and copy successful traders  
+- **Mining**: Bitcoin mining and accelerator features  
+- **Loans**: Crypto-backed lending services  
+- **Social Features**: Trading community with news and trending topics  
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18  
+- Vite  
+- Tailwind CSS  
+- Binance API integration  
+- Real-time trading data  
+
+## Getting Started
+
+1. Clone the repository  
+2. Install dependencies: `npm install`  
+3. Start the development server: `npm run dev`  
+4. Open [http://localhost:5173](http://localhost:5173) in your browser  
+
+## Available Scripts
+
+- `npm run dev` - Start development server  
+- `npm run build` - Build for production  
+- `npm run preview` - Preview production build  
+- `npm run lint` - Run ESLint  
+
+## Project Structure
+
+- `/src/components` - Reusable UI components  
+- `/src/pages` - Page components  
+- `/src/contexts` - React contexts for state management  
+- `/src/hooks` - Custom React hooks  
+- `/src/services` - API services and external integrations  
+- `/src/utils` - Utility functions  
+
+## Contributing
+
+1. Fork the repository  
+2. Create a feature branch  
+3. Make your changes  
+4. Submit a pull request  
+
+## License
+
+This project is licensed under the MIT License.
